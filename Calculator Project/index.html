@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+
+
+
+
+      <form name="forms">
+         <input id="result" value=" " name="result" readonly>
+
+         <div class="numbers">
+            <input type="button" value="1" onclick="forms.result.value+='1' ">
+            <input type="button" value="2" onclick="forms.result.value+='2' ">
+            <input type="button" value="3" onclick="forms.result.value+='3' ">
+            <input type="button" value="+" onclick="forms.result.value+='+' ">
+
+         </div>
+
+         <div class="numbers">
+            <input type="button" value="4" onclick="forms.result.value+='4' ">
+            <input type="button" value="5" onclick="forms.result.value+='5' ">
+            <input type="button" value="6" onclick="forms.result.value+='6' ">
+            <input type="button" value="-" onclick="form.result.value +='-' ">
+
+         </div>
+
+         <div class="numbers">
+            <input type="button" value="7" onclick="forms.result.value+='7' ">
+            <input type="button" value="8" onclick="forms.result.value+='8' ">
+            <input type="button" value="9" onclick="forms.result.value+='9' ">
+            <input type="button" value="*" onclick="forms.result.value+='*' ">
+
+
+         </div>
+
+         <div class="numbers">
+            <input type="button" value="0" onclick="forms.result.value+='0' ">
+            <input id="total" type="button" value="Clear All" onclick="forms.result.value=' ' " />
+            <input type="button" value="=" onclick="forms.result.value=eval(forms.result.value) ">
+            <input type="button" value="/" onclick="forms.result.value+='/' ">
+
+
+
+
+         </div>
+
+
+
+
+
+      </form>
+
+      <!-- <button id="total" onclick="total()">=</button> -->
+      <script src="script.js"></script>
+
+   </div>
+</body>
+
+</html>

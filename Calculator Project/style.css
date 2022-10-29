@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+form #result{
+    width: 370px;
+    height: 47px;
+    border-radius:5px;
+    border: 1px solid black;
+    font-size: 26px;
+    text-align:end ;
+    padding: 6px;
+     
+}
+.numbers input{
+    width: 90px;
+    height: 38px;
+    margin-top:7px;
+    margin-inline: 2px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(196, 192, 192);
+    font-size: 22px;
+}
