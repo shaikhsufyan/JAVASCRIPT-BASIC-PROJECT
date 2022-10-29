@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+.container{
+    
+     
+ 
+     border: 1px solid  rgb(0, 115, 255);
+     text-align: center;
+     width: 330px;
+     margin-left: 33%;
+     padding: 30px;
+     margin-top: 5%;
+
+}
+.container #inputs{
+    width: 250px;
+    height: 30px;
+    border:2px solid rgb(24, 194, 194);
+    outline: none;
+    color: rgb(24, 194, 194);
+    font-size: 18px;
+}
+.container button{
+    width: 50px;
+    height: 34px;
+    background-color: rgb(16, 154, 154);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+ 
+.task ul  li{
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 25px;
+    /* position: relative;
+    top: 22px; */
+}
+.task ul a{
+    margin-inline: 270px;
+    list-style: none;
+    cursor: pointer;
+    width: 100px;
+    height: 33px;
+    padding: 6px;
+    color: white;
+    background-color: rgb(32, 160, 160);
+    border-radius: 3px;
+    
+
+}
